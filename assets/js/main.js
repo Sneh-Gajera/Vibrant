@@ -3,10 +3,10 @@
 $(document).ready(function () {
   setTimeout(() => {
     $("#pre_loader").addClass("loaded");
-  }, 2000);
+  }, 1000);
   setTimeout(() => {
     $("#pre_loader").remove("loaded");
-  }, 3000);
+  }, 1000);
 });
 
 //responsive menu
