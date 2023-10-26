@@ -320,9 +320,11 @@ header .top_contact_part i {
   color: #fff;
   font-family: var(--sub-main-font);
   font-size: 65px;
+  margin-bottom: 20px;
 }
 
 .hero .left_text p {
+  width: 460px;
   color: #fff;
   font-family: var(--sub-main-font);
   font-size: 17px;
