@@ -18,6 +18,17 @@ $(document).ready(function () {
 });
 
 
+$(document).ready(function() {
+  // Add an 'active' class to the clicked menu item and remove it from others
+  $(".nav_links li").on('click', function() {
+      $(".nav_links a").removeClass("active");
+      $(this).parent("a").addClass("active");
+  });
+
+
+});
+
+
 
 
 

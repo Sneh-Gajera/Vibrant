@@ -266,6 +266,10 @@ header .top_contact_part i {
   text-transform: capitalize;
 }
 
+.nav_links li a.active{
+  color: var(--main-color);
+}
+
 /* .navigate_bar ul li .active {
   color: var(--main-color);
 } */
