@@ -1310,9 +1310,7 @@
 
 @media only screen and (max-width: 400px) {
 
-  .hero .left_text p {
-    width: 260px !important;
-  }
+  
   .top_bar .top_contact_part .foot_i span,.top_contact_part .foot_i i{
     font-size: 9px;
   }
@@ -1350,6 +1348,7 @@
   }
 
   .hero .left_text p {
+    width: 260px;
     font-size: 12px;
     margin-bottom: 10px;
   }
