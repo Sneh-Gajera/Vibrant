@@ -1436,7 +1436,9 @@
   header .follow_part {
     padding-left: 12px;
   }
-
+  .top_bar .top_contact_part .foot_i span,.top_contact_part .foot_i i{
+    font-size: 9px;
+  }
   header .top_contact_part {
     gap: 5px;
   }
