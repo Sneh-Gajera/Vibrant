@@ -1423,7 +1423,7 @@
 @media only screen and (max-width: 370px) {
 
   .hero .left_text p {
-    width: 260px;
+    width: 260px !important;
   }
   .top_bar .left {
     width: 130px;
