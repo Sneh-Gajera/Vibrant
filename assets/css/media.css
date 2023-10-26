@@ -1309,6 +1309,13 @@
 }
 
 @media only screen and (max-width: 400px) {
+
+  .hero .left_text p {
+    width: 260px !important;
+  }
+  .top_bar .top_contact_part .foot_i span,.top_contact_part .foot_i i{
+    font-size: 9px;
+  }
   header .top_contact_part {
     gap: 10px;
     font-size: 8px;
@@ -1422,9 +1429,7 @@
 
 @media only screen and (max-width: 370px) {
 
-  .hero .left_text p {
-    width: 260px !important;
-  }
+ 
   .top_bar .left {
     width: 130px;
   }
@@ -1440,9 +1445,7 @@
   header .follow_part {
     padding-left: 12px;
   }
-  .top_bar .top_contact_part .foot_i span,.top_contact_part .foot_i i{
-    font-size: 9px;
-  }
+  
   header .top_contact_part {
     gap: 5px;
   }
