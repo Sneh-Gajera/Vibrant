@@ -821,7 +821,7 @@
     font-size: 15px;
   }
   .gallery_img img {
-    width: 218px;
+    width: 100%;
     height: 100%;
   }
 
