@@ -1450,6 +1450,13 @@
 }
 
 @media only screen and (max-width: 350px) {
+
+
+  .hero .left_text p {
+    width: 260px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
   /* course */
   .course1 .course_nursing_pos {
     top: 42%;
