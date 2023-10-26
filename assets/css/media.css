@@ -1348,7 +1348,7 @@
   }
 
   .hero .left_text p {
-    width: 260px;
+    width: 260px !important;
     font-size: 12px;
     margin-bottom: 10px;
   }
