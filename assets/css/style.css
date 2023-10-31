@@ -2266,6 +2266,7 @@ header .top_contact_part i {
 
 
 .load_more button{
+  margin-top: 0;
   padding: 8px 30px;
   font-size: 18px;
   font-family: var(--third-font);
