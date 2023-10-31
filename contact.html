@@ -63,11 +63,15 @@
       rel="stylesheet"
     />
     <!-- css -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
     <!-- media css -->
-    <link rel="stylesheet" href="assets/css/media.css" />
+    <link rel="stylesheet" href="./assets/css/media.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
   </head>
   <body>
     <!-- pre-loader -->
@@ -123,7 +127,7 @@
             <div class="logo_side">
               <a href="#"
                 ><img
-                  src="assets/image/Swami Edu Trust Logo (1) 1.jpg"
+                  src="./assets/image/Swami Edu Trust Logo (1) 1.jpg"
                   alt=""
                   height="65px"
                   width="65px"
@@ -183,11 +187,11 @@
           <span><i class="fa-solid fa-graduation-cap"></i> Contact Info</span>
           <h2>Get In Touch</h2>
         </div>
-        <div class="row">
+        <div class="row" data-aos="fade-left" data-aos-duration="2000">
           <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
             <div class="contact_part text-center">
               <div class="contact_icon">
-                <img src="assets/image/contact/contact-icon01.png" alt="" />
+                <img src="/assets/image/contact/contact-icon01.png" alt="" />
               </div>
               <div class="contact_text">
                 <h5>+91 85214 79630</h5>
@@ -199,7 +203,7 @@
           <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
             <div class="contact_part text-center active">
               <div class="contact_icon">
-                <img src="assets/image/contact/contact-icon02.png" alt="" />
+                <img src="/assets/image/contact/contact-icon02.png" alt="" />
               </div>
               <div class="contact_text">
                 <h5>Vibrantcampus@gmail.com</h5>
@@ -211,7 +215,7 @@
           <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
             <div class="contact_part text-center">
               <div class="contact_icon">
-                <img src="assets/image/contact/contact-icon03.png" alt="" />
+                <img src="/assets/image/contact/contact-icon03.png" alt="" />
               </div>
               <div class="contact_text">
                 <h5>12/A, New Jone, NYC</h5>
@@ -312,19 +316,19 @@
           <div class="brand_slider">
             <div class="owl-carousel owl-theme brand">
               <div class="item">
-                <img src="assets/image/brand/b-logo1.png" alt="" />
+                <img src="/assets/image/brand/b-logo1.png" alt="" />
               </div>
               <div class="item">
-                <img src="assets/image/brand/b-logo2.png" alt="" />
+                <img src="/assets/image/brand/b-logo2.png" alt="" />
               </div>
               <div class="item">
-                <img src="assets/image/brand/b-logo3.png" alt="" />
+                <img src="/assets/image/brand/b-logo3.png" alt="" />
               </div>
               <div class="item">
-                <img src="assets/image/brand/b-logo4.png" alt="" />
+                <img src="/assets/image/brand/b-logo4.png" alt="" />
               </div>
               <div class="item">
-                <img src="assets/image/brand/+.png" alt="" />
+                <img src="/assets/image/brand/+.png" alt="" />
               </div>
             </div>
           </div>
@@ -436,7 +440,7 @@
     </div>
 
     <!-- main js -->
-    <script src="assets/js/main.js" defer></script>
+    <script src="/assets/js/main.js" defer></script>
 
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -456,5 +460,16 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+
+     <!-- aos -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <script>
+       AOS.init({
+        offset:300,
+         duration: 1000,
+         delay: 0,
+       });
+     </script>
   </body>
 </html>
