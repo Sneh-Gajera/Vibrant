@@ -1520,6 +1520,7 @@ header .top_contact_part i {
 .courses_inner .courses {
   display: none;
   background-color: var(--sec-bg);
+  margin-bottom: 20px;
 }
 .courses_inner .courses .courses_text {
   padding-left: 20px;
@@ -1785,13 +1786,13 @@ header .top_contact_part i {
 /* ...............................................
             event page
 ..................................................*/
-.event_part{
-  display: none;
-}
+
 .event_main {
   margin-top: 100px;
 }
 .event_part {
+  display: none;
+  margin-bottom: 20px;
   padding: 20px;
   background-color: var(--sec-bg);
 }
@@ -2266,7 +2267,7 @@ header .top_contact_part i {
 
 
 .load_more button{
-  margin-top: 0;
+  margin-top: 10px;
   padding: 8px 30px;
   font-size: 18px;
   font-family: var(--third-font);
