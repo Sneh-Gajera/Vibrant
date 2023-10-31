@@ -1195,12 +1195,25 @@ header .top_contact_part i {
 .footer_inner h3::after {
   content: "";
   height: 1px;
-  width: 30%;
+  width: 25%;
   background-color: var(--main-color);
   position: absolute;
   bottom: 0;
   left: 0;
   margin-bottom: -6px;
+ animation: ani 3s infinite;
+}
+@keyframes ani{
+  0%{
+    left: 0px;
+  }
+  50%{
+    left: 30px;
+  }
+  100%{
+    left: 0px;
+  }
+
 }
 
 .footer_inner .i_part ul li {
@@ -2243,4 +2256,24 @@ header .top_contact_part i {
 .socials ul {
   display: flex;
   gap: 15px;
+}
+
+
+/* load more button */
+
+
+.load_more button{
+  padding: 8px 30px;
+  font-size: 18px;
+  font-family: var(--third-font);
+  font-weight: 500;
+  border-radius: 5px;
+  transition: 0.5s ease-in;
+  color: #fff;
+  background: var(--main-color);
+  border: none;
+}
+
+.load_more button:hover{
+  background: #2e3192;
 }
